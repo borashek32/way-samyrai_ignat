@@ -17,16 +17,18 @@ function Message(props: messageType) {
                     src={props.avatar}
                 />
                 <div className={s.text}>
-                    <div className={s.name}>
-                        {props.name}
+                    <div>
+                        <div className={s.name}>
+                            {props.name}
+                        </div>
+                        <div className={s.messageText}>
+                            {props.message}
+                        </div>
                     </div>
-                    <pre className={s.messageText}>
-                        {props.message}
-                    </pre>
+                    <div className={s.time}>
+                        <p>{props.time}</p>
+                    </div>
                 </div>
-            </div>
-            <div className={s.time}>
-                {props.time}
             </div>
         </>
     )
