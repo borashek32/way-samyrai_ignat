@@ -10,8 +10,9 @@ export type messageType = {
 }
 
 function Message(props: messageType) {
+
     return (
-        <>
+        <div className={s.bg}>
             <div className={s.imageAndText}>
                 <img
                     src={props.avatar}
@@ -28,9 +29,12 @@ function Message(props: messageType) {
                     <div className={s.time}>
                         <p>{props.time}</p>
                     </div>
+                    <div className={s.triangle}>
+                        <div className={s.corner}></div>
+                    </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
