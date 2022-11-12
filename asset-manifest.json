@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/way-samyrai_ignat/static/css/main.cc29f3e7.css",
+    "main.js": "/way-samyrai_ignat/static/js/main.d4210e9e.js",
+    "index.html": "/way-samyrai_ignat/index.html",
+    "main.cc29f3e7.css.map": "/way-samyrai_ignat/static/css/main.cc29f3e7.css.map",
+    "main.d4210e9e.js.map": "/way-samyrai_ignat/static/js/main.d4210e9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc29f3e7.css",
+    "static/js/main.d4210e9e.js"
+  ]
+}
