@@ -1,3 +1,10 @@
 .someClass {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
 
+.someClass button {
+    width: 25px;
+    height: 25px;
 }
