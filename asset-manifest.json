@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/way-samyrai_ignat/static/css/main.693b73a3.css",
-    "main.js": "/way-samyrai_ignat/static/js/main.6be06ca1.js",
+    "main.css": "/way-samyrai_ignat/static/css/main.510338ac.css",
+    "main.js": "/way-samyrai_ignat/static/js/main.799ef4bf.js",
     "index.html": "/way-samyrai_ignat/index.html",
-    "main.693b73a3.css.map": "/way-samyrai_ignat/static/css/main.693b73a3.css.map",
-    "main.6be06ca1.js.map": "/way-samyrai_ignat/static/js/main.6be06ca1.js.map"
+    "main.510338ac.css.map": "/way-samyrai_ignat/static/css/main.510338ac.css.map",
+    "main.799ef4bf.js.map": "/way-samyrai_ignat/static/js/main.799ef4bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.693b73a3.css",
-    "static/js/main.6be06ca1.js"
+    "static/css/main.510338ac.css",
+    "static/js/main.799ef4bf.js"
   ]
 }
