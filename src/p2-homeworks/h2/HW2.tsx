@@ -3,12 +3,16 @@ import Affairs from './Affairs'
 import affair from "./Affair";
 
 // types
-export type AffairPriorityType = any // need to fix any
-export type AffairType = any // need to fix any
+export type AffairPriorityType = string // need to fix any
+export type AffairType = {
+    _id: number
+    name: string
+    priority: FilterType
+} // need to fix any
 export type FilterType = 'all' | AffairPriorityType
 
 // constants
-const defaultAffairs: any = [ // need to fix any
+const defaultAffairs: Array<AffairType> = [ // need to fix any
     {_id: 1, name: 'React', priority: 'high'},
     {_id: 2, name: 'anime', priority: 'low'},
     {_id: 3, name: 'games', priority: 'low'},
